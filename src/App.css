@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.counter-card {
+  background-color: #ffc533;
+  padding: 10px;
+  height: 500px;
+  max-width: 500px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.counter-description {
+  background-color: #ffbf1f;
+  padding: 10px;
+  font-family: 'Roboto';
+  color: #272c47;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.left-heading {
+  font-size: 30px;
+}
+.image {
+  height: 40%;
+  width: 50%;
+}
+.input-container {
+  background-color: #0f172a;
+  background-size: cover;
+  padding: 10px;
+  height: 500px;
+  width: 500px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  color: #ffbf1f;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.input-card {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.text-bar {
+  width: 50%;
+  height: 35px;
+  background-color: #ffffff;
+  border: none;
+  color: #475569;
+  border-radius: 3px;
+  margin-right: 6px;
+}
+.add-button {
+  background-color: #ffbf1f;
+  color: #272c47;
+  padding-left: 18px;
+  padding-right: 18px;
+  border: none;
+  border-radius: 3px;
+}
